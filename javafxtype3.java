@@ -1,18 +1,5 @@
 package application;
-/*
-public class AS23 {
 
-}
-*/
-//package application;
-/*
-public class ContextMenuDemo {
-
-}*/
-
-//package application;
-
-//Demonstrate Menus
 import javafx.application.*;
 import javafx.scene.*;
 import javafx.stage.*;
@@ -21,7 +8,7 @@ import javafx.scene.control.*;
 import javafx.event.*;
 import javafx.geometry.Pos;
 
-public class AS23 extends Application {
+public class javafxtype3 extends Application {
 	Label response;
 
 	public static void main(String[] args) {
@@ -72,10 +59,6 @@ public class AS23 extends Application {
 		MenuItem small = new MenuItem("Small");
 		
 		viewMenu.getItems().addAll(large,medium,small,new SeparatorMenuItem());
-	
-		
-		// Add a separator.
-	    // viewMenu.getItems().add(new SeparatorMenuItem());
 		
 		// Add view menu to the menu bar.
 		mb.getMenus().add(viewMenu);		
