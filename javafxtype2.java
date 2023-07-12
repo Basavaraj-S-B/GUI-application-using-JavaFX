@@ -9,7 +9,7 @@ import javafx.scene.control.*;
 import javafx.scene.input.*;
 import javafx.event.*;
 
-public class AS22 extends Application {
+public class javafxtype2 extends Application {
 	Label response;
 
 	public static void main(String[] args) {
@@ -72,10 +72,6 @@ public class AS22 extends Application {
 		MenuItem pasteMenu = new MenuItem("Paste");
 		editMenu.getItems().add(pasteMenu);
 		
-		// Add a separator.
-	//	editMenu.getItems().add(new SeparatorMenuItem());
-		
-
 		// Add Options menu to the menu bar.
 		mb.getMenus().add(editMenu);
 		
