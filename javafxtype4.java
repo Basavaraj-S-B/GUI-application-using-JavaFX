@@ -1,12 +1,6 @@
 package application;
-/*
-public class AS24 {
 
-}*/
-//package application;
-
-
-
+//javafx code to display user registration form
 import javafx.beans.*;
 import javafx.collections.*;
 import javafx.application.*;
@@ -18,7 +12,7 @@ import javafx.event.*;
 import javafx.geometry.*;
 import java.io.IOException;
 
-public class AS24 extends Application {
+public class javafxtype4 extends Application {
 
 	public static void main(String[] args) {
 		// Start the JavaFX application by calling launch().
