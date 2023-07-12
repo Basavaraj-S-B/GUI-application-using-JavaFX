@@ -15,7 +15,7 @@ class InvalidException extends Exception {
    	
 }
 
-public class AS21 extends Application {
+public class javafxtype1 extends Application {
 	TextField tf,tff;
 	Label response;
 	Label response1;
@@ -58,7 +58,6 @@ public class AS21 extends Application {
 		
 		
 		response1= new Label("Verify password: ");
-//		Button btnGetUserName = new Button("Get Password");
 
 		Separator separator1 = new Separator();
 		separator1.setPrefWidth(180);
@@ -85,24 +84,13 @@ public class AS21 extends Application {
 				  response.setText("UserName: " + tf.getText());
 			}
 		});
-		
-
-	//	Separator separator = new Separator();
-	//	separator.setPrefWidth(180);
-		
-		
+				
 		tff.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent ae) {
 			
 				   response1.setText("Password: " + tff.getText());
 			}
-		});
-		
-
-		//Separator separator1 = new Separator();
-		//separator1.setPrefWidth(180);
-		
-	
+		});	
 		// Get text from the text field when the button is pressed
 		// and display it.
 		btnGetUserName.setOnAction(new EventHandler<ActionEvent>() {
@@ -149,19 +137,8 @@ public class AS21 extends Application {
 			  
 			}   
 		  });
-		
-	//	Separator separator = new Separator();
-		separator.setPrefWidth(180);
-		/*
-		btnGet.setOnAction(new EventHandler<ActionEvent>() {
-			public void handle(ActionEvent ae) {
-				 
-			}
-		});*/
 		// Use a separator to better organize the layout.
 
-		
-//		Separator separator1 = new Separator();
 		separator1.setPrefWidth(180);
 		
 		
